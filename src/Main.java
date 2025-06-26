@@ -40,7 +40,6 @@ public class Main {
                     int completeTodo = todoSc.nextInt()-1;
                     todoSc.nextLine();
 
-                    int size = todos.size();
                     if(completeTodo >= todos.size() || completeTodo < 0) {
                         System.out.println("올바른 값을 입력하세요.");
                         continue;
